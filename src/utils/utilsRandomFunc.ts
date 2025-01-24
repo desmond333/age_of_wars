@@ -11,3 +11,11 @@ export const getRandomNumber = (min: number, max: number): number => {
     }
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
+
+export const getRandomPhrase = (array: string[]): string => {
+    if (!Array.isArray(array) || array.length === 0) {
+        throw new Error('Input must be a non-empty array')
+    }
+    const randomIndex = getRandomInt(0, array.length)
+    return array[randomIndex]
+}
