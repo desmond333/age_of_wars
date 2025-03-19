@@ -31,6 +31,9 @@ To get started with the Age of Wars project, follow these steps:
 4. **Open the Game**:
    Open your browser and navigate to `http://localhost:3000` to start playing the game.
 
+5. **WIP**:
+WIP.
+
 ## Contributing
 
 We welcome contributions from the community! If you'd like to contribute to the Age of Wars project, please follow these steps:
